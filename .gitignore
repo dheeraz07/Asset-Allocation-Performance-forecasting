@@ -1,0 +1,24 @@
+# raw data from the challenge (download from challengedata.ens.fr,
+# too large to version in git)
+X_train_9xQjqvZ.csv
+X_test_1zTtEnD.csv
+y_train_Ppwhaz8.csv
+
+# intermediate artefacts produced by run_pipeline.sh
+work/
+catboost_info/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
