@@ -22,11 +22,7 @@ post hoc calibration rather than chasing a single large model.
 | Stack with per allocation calibration | 0.5288              |
 | Final, per GROUP optimal threshold    | **0.5293**          |
 
-Public leaderboard baseline 0.5352. Majority class baseline 0.5072.
 
-All numbers above are out of fold on `GroupKFold(5)` splits grouped by
-trading day, never touching the held out day during training or target
-encoding.
 
 
 ## Pipeline
